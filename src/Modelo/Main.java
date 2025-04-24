@@ -8,7 +8,7 @@ public class Main {
         produto.entradaEstoque(50);
 
         try {
-            produto.saidaEstoque(20);
+            produto.saidaEstoque(40);
             System.out.println("Saída realizada com sucesso!");
             System.out.println("Estoque atual de " + produto.getNome() + ": " + produto.getQuantidade());
         } catch (EstoqueInsuficienteException e) {
